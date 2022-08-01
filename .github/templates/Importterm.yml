@@ -1,0 +1,52 @@
+name: Import term
+description: Import term from registered Ontology into AgrO
+title: "[Import] "
+labels: [term-add]
+assignees: 
+body:
+ 
+  - type: input
+    id: term
+    attributes:
+      label: Import term title
+      description: Please enter the name of the term to be added and IRI from the registered ontology
+      placeholder: "example term here"
+    validations:
+      required: true
+      
+ - type: input
+    id: term
+    attributes:
+      label: Link/Accession number
+      description: Please enter the IRI from the registered ontology
+      placeholder: "EXAMPLE_00000111 (http://purl.obolibrary.org/exampleobo/EXAMPLE_00000111)"
+    validations:
+      required: true
+
+- type: input
+    id: Linked terms- Parent
+    attributes:
+      label: Parent term(s)
+      description: What term(s) already in the nfdi4pso ontology should this new term be under? Please list them here, including accession numbers
+      required: true
+      
+ - type: textarea
+    id: Linked terms- Child
+    attributes:
+      label: Child term(s)
+      description: Are there terms already in the nfdi4pso ontology that should be linked underneath the new term? Please list them here, including accession numbers
+    validations:
+      required: false
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Please state the reason to import this term into nfdi4pso
+    validations:
+      required: false
+
+- type: input
+    id: attribution
+    attributes:
+      label: Your ORCID
+      required: false
