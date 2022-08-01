@@ -12,3 +12,12 @@ body:
       placeholder: "example term here"
     validations:
       required: true
+
+- type: input
+    id: term
+    attributes:
+      label: Link/Accession number
+      description: Please enter the term accession number and URI 
+      placeholder: "EXAMPLE_00000111 (http://purl.obolibrary.org/exampleobo/EXAMPLE_00000111)"
+    validations:
+      required: true
