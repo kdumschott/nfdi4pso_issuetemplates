@@ -21,3 +21,4 @@ body:
      placeholder: "EXAMPLE_00000111 (http://purl.obolibrary.org/exampleobo/EXAMPLE_00000111)"
    validations:
      required: true
+     
