@@ -12,5 +12,13 @@ body:
       placeholder: "example term here"
     validations:
       required: true
-
+      
+ - type: input
+    id: term
+    attributes:
+      label: Import term title
+      description: Please enter the name of the term to be added 
+      placeholder: "example term here"
+    validations:
+      required: true
      
