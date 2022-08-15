@@ -56,6 +56,8 @@ body:
   - type: input
     id: attribution
     attributes:
-      label: Your ORCID ID
+      label: Your ORCID
+      description: Please provide your ORCID for microattribution
     validations:
       required: false
+
