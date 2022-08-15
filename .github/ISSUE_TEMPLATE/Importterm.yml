@@ -13,6 +13,7 @@ body:
     validations:
       required: true
       
- - type: input
-   id: accession number
-
+  - type: input
+    id: accession number
+    attributes:
+      label: 
