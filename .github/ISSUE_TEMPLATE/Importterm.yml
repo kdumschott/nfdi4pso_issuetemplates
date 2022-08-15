@@ -7,7 +7,7 @@ body:
   - type: input
     id: term
     attributes:
-      label: Import term title
+      label: Import term id
       description: Please enter the name of the term to be added 
       placeholder: "example term here"
     validations:
