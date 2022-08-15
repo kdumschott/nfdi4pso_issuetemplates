@@ -14,7 +14,7 @@ body:
       required: true
       
   - type: input
-    id: accession
+    id: Accession_id
     attributes:
       label: Link and Accession number
       description: Please enter the term accession number and URI 
@@ -23,7 +23,7 @@ body:
       required: true
       
   - type: input
-    id: Linked terms- Parent
+    id: Linked_Parent
     attributes:
       label: Parent term(s)
       description: What term(s) already in the nfdi4pso ontology should this new term be under? Please list them here, including accession numbers
@@ -31,7 +31,7 @@ body:
       required: true
       
   - type: textarea
-    id: Linked terms- Child
+    id: Linked_Child
     attributes:
       label: Child term(s)
       description: Are there terms already in the nfdi4pso ontology that should be linked underneath the new term? Please list them here, including accession numbers
@@ -49,4 +49,5 @@ body:
     id: attribution
     attributes:
       label: Your ORCID
+    validations:
       required: false
