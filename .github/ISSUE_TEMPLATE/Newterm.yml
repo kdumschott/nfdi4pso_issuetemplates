@@ -48,7 +48,7 @@ body:
   - type: textarea
     id: Linked_xref
     attributes:
-      label: Cross-references
+      label: Xrefs
       description: Are there terms in an established ontology that are synonyms for the new term? Please list them here, including the accession number and a link to the term
     validations:
       required: false
