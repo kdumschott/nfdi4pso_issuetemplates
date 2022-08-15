@@ -45,8 +45,8 @@ body:
     validations:
       required: false
 
- - type: input
-   id: attribution
+  - type: input
+    id: attribution
     attributes:
       label: Your ORCID
       required: false
