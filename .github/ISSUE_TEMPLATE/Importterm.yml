@@ -16,7 +16,7 @@ body:
   - type: input
     id: Link/accession number
     attributes:
-      label: Link/accession number
+      label: Link and accession number
       description: Please enter the term accession number and URI
       placeholder: "EXAMPLE_00000111 (http://purl.obolibrary.org/exampleobo/EXAMPLE_00000111)"
     validations:
