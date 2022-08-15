@@ -27,7 +27,7 @@ body:
     attributes:
       label: Parent term(s)
       description: What term(s) already in the nfdi4pso ontology should this new term be under? Please list them here, including accession numbers
-     validations: 
+    validations: 
       required: true
       
   - type: textarea
