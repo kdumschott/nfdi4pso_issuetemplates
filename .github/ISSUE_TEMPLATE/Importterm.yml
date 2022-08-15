@@ -2,6 +2,7 @@ name: Import term
 description: Import term from a registered ontology into nfdi4pso
 title: "[Import] "
 labels: [term-add]
+Assignees: kdumschott
 body:
  
   - type: input
