@@ -2,7 +2,7 @@ name: Add new term
 description: Suggest a new term to be added to the nfdi4pso ontology
 title: "[NTR]"
 labels: [add term]
-assignees: ''
+assignees: kdumschott
 body:
   - type: input
     id: term
