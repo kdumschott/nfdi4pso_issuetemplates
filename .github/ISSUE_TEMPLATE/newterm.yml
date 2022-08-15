@@ -31,30 +31,32 @@ body:
       required: false
       
  - type: input
-    id: Linked terms- Parent
-    attributes:
+   id: Linked_Parent
+   attributes:
       label: Parent term(s)
       description: What term(s) already in the nfdi4pso ontology should this new term be under? Please list them here, including accession numbers
+   validations:
       required: true
 
-  - type: textarea
-    id: Linked terms- Child
-    attributes:
+ - type: textarea
+   id: Linked_Child
+   attributes:
       label: Child term(s)
       description: Are there terms already in the nfdi4pso ontology that should be linked underneath the new term? Please list them here, including accession numbers
-    validations:
+   validations:
       required: false
 
-- type: textarea
-    id: Linked terms- xref
-    attributes:
+ - type: textarea
+   id: Linked_xref
+   attributes:
       label: Cross-references
-      description: Are there terms in an ontology already imported to SWATE that should be linked to the new term? Please list them here, including the accession number and a link to the term
-    validations:
+      description: Are there terms in an established ontology that are synonyms for the new term? Please list them here, including the accession number and a link to the term
+   validations:
       required: false
 
-  - type: input
-    id: attribution
-    attributes:
+ - type: input
+   id: attribution
+   attributes:
       label: Your ORCID ID
+   validations:
       required: false
