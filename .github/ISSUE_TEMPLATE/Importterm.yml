@@ -14,7 +14,7 @@ body:
     validations:
       required: true
       
- - type: input
+  - type: input
     id: term
     attributes:
       label: Link and Accession number
