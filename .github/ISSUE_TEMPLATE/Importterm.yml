@@ -12,14 +12,4 @@ body:
       placeholder: "example term here"
     validations:
       required: true
-      
-  - type: input
-    id: accession number
-    attributes:
-      label: Link and accession number
-      description: Please enter the term accession number and URI
-      placeholder: "example here"
-    validations:
-      required: true
-      
-     
+
