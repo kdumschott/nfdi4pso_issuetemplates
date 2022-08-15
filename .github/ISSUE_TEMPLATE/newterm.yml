@@ -37,25 +37,25 @@ body:
     validations:
       required: true
 
- - type: textarea
-   id: Linked_Child
-   attributes:
+  - type: textarea
+    id: Linked_Child
+    attributes:
       label: Child term(s)
       description: Are there terms already in the nfdi4pso ontology that should be linked underneath the new term? Please list them here, including accession numbers
-   validations:
+    validations:
       required: false
 
- - type: textarea
-   id: Linked_xref
-   attributes:
+  - type: textarea
+    id: Linked_xref
+    attributes:
       label: Cross-references
       description: Are there terms in an established ontology that are synonyms for the new term? Please list them here, including the accession number and a link to the term
-   validations:
+    validations:
       required: false
 
- - type: input
-   id: attribution
-   attributes:
+  - type: input
+    id: attribution
+    attributes:
       label: Your ORCID ID
-   validations:
+    validations:
       required: false
