@@ -1,5 +1,5 @@
-name: Import term
-description: Import term from a registered ontology into nfdi4pso
+name: "Import term"
+description: "Import term from a registered ontology into nfdi4pso"
 title: "[Import] "
 labels: [term-add]
 body:
