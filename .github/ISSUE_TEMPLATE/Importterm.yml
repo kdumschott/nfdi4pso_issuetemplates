@@ -12,8 +12,9 @@ body:
       placeholder: "example term here"
     validations:
       required: true
- 
- - type: input
+      
+      
+  - type: input
     id: term
     attributes:
       label: Import term title
@@ -21,4 +22,5 @@ body:
       placeholder: "example term here"
     validations:
       required: true
+      
      
