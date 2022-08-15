@@ -14,7 +14,7 @@ body:
       required: true
       
   - type: input
-    id: accession number and link
+    id: accession
     attributes:
       label: Link and Accession number
       description: Please enter the term accession number and URI 
