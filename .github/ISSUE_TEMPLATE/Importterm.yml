@@ -2,7 +2,6 @@ name: Import term
 description: Import term from a registered ontology into nfdi4pso
 title: "[Import] "
 labels: [term-add]
-assignees: 
 body:
  
   - type: input
@@ -15,7 +14,7 @@ body:
       required: true
       
   - type: input
-    id: term
+    id: accession number and link
     attributes:
       label: Link and Accession number
       description: Please enter the term accession number and URI 
