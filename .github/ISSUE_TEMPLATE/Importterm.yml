@@ -18,7 +18,7 @@ body:
     attributes:
       label: Link and accession number
       description: Please enter the term accession number and URI
-      placeholder: ""
+      placeholder: "example here"
     validations:
       required: true
       
