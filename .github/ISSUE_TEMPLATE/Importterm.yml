@@ -21,7 +21,7 @@ body:
       placeholder: "EXAMPLE_00000111 (http://purl.obolibrary.org/exampleobo/EXAMPLE_00000111)"
     validations:
       required: true
-
+      
   - type: input
     id: Linked terms- Parent
     attributes:
@@ -32,14 +32,14 @@ body:
       
   - type: textarea
     id: Linked terms- Child
-     attributes:
+    attributes:
       label: Child term(s)
       description: Are there terms already in the nfdi4pso ontology that should be linked underneath the new term? Please list them here, including accession numbers
     validations:
       required: false
 
- - type: textarea
-   id: reason
+  - type: textarea
+    id: reason
     attributes:
       label: Please state the reason to import this term into nfdi4pso
     validations:
