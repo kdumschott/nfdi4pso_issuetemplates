@@ -8,17 +8,17 @@ body:
   - type: input
     id: term
     attributes:
-      label: Import term id
-      description: Please enter the name of the term to be added 
-      placeholder: "example term here"
+      label: term name and id
+      description: Please enter the name and id (accession number) of the term to be imported 
+      placeholder: "example term  (EXONT_00000111)"
     validations:
       required: true
       
   - type: input
     id: Accession_id
     attributes:
-      label: Link and Accession number
-      description: Please enter the term accession number and URI 
+      label: Term link
+      description: Please enter the term id (accession number) and URI 
       placeholder: "EXAMPLE_00000111 (http://purl.obolibrary.org/exampleobo/EXAMPLE_00000111)"
     validations:
       required: true
