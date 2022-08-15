@@ -8,7 +8,7 @@ body:
   - type: input
     id: term
     attributes:
-      label: term name and id
+      label: Term name and id
       description: Please enter the name and id (accession number) of the term to be imported 
       placeholder: "example term  (EXONT_00000111)"
     validations:
