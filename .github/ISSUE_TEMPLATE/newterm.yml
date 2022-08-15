@@ -21,14 +21,6 @@ body:
     validations:
       required: true
       
-  - type: textarea
-    id: Synonyms
-    attributes:
-      label: Synonyms
-      description: Please provide any synonyms for the new term
-    validations:
-      required: false
-      
   - type: input
     id: Linked_Parent
     attributes:
@@ -42,6 +34,14 @@ body:
     attributes:
       label: Child term(s)
       description: Are there terms already in the nfdi4pso ontology that should be linked underneath the new term? Please list them here, including accession numbers
+    validations:
+      required: false
+      
+  - type: textarea
+    id: Synonyms
+    attributes:
+      label: Synonyms
+      description: Please provide any synonyms for the new term
     validations:
       required: false
 
