@@ -17,15 +17,19 @@ body:
     id: add
     attributes:
       label: Synonym to be added
-      description: i.e. ex.term
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: Scope
     attributes:
-      label: Synonym scope
-      description: i.e. broad/exact/narrow/related
+      label: Please provide the synonym scope
+      multiple: false
+      options: 
+        - BROAD
+        - EXACT 
+        - NARROW
+        - RELATED
     validations:
       required: false
 
