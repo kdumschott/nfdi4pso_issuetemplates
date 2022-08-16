@@ -1,5 +1,5 @@
 name: Add new term 
-description: Suggest a new term to be added to the nfdi4pso ontology
+description: Suggest a new term to be added to nfdi4pso
 title: "[NTR]"
 labels: [add term]
 assignees: kdumschott
