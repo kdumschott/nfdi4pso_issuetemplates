@@ -37,10 +37,10 @@ body:
     validations:
       required: false
       
- - type: input
-   id: attribution
-   attributes:
-     label: Your ORCID
-     description: Please provide your ORCID for microattribution
-   validations:
+  - type: input
+    id: attribution
+    attributes:
+      label: Your ORCID
+      description: Please provide your ORCID for microattribution
+    validations:
      required: false
