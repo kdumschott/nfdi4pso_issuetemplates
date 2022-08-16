@@ -17,7 +17,7 @@ body:
     id: add
     attributes:
       label: Synonym to be added
-      description: ie, ex.term
+      description: i.e. ex.term
     validations:
       required: true
 
@@ -25,7 +25,7 @@ body:
     id: Scope
     attributes:
       label: Synonym scope
-      description: ie, broad/exact/narrow/related
+      description: i.e. broad/exact/narrow/related
     validations:
       required: false
 
