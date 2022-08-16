@@ -23,7 +23,8 @@ body:
   - type: dropdown
     id: Scope
     attributes:
-      label: Please provide the synonym scope
+      label: Scope
+      description: Please provide the scope of the synonym
       multiple: false
       options: 
         - BROAD
@@ -37,7 +38,7 @@ body:
     id: Link
     attributes:
       label: Comments
-      description: Please provide the reasoning for adding the synonym 
+      description: Please provide the reasoning for adding the synonym and/or additional comments
     validations:
       required: false
       
